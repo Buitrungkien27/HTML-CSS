@@ -1,0 +1,62 @@
+*{
+    padding: 0;margin: 0;
+
+}
+.bo .font{
+    background-color: aqua;
+    width: 2000px;
+    height: 300px;
+}
+.menu{
+    display: flex;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+.dacap{
+    position: relative;
+    margin-left: 50px;
+    padding-left: 15px;
+    margin: auto;
+    justify-content: space-between;
+    line-height: 40px;
+
+}
+.dacap .layer1{
+    position: relative;
+    transition: 0.4s;
+    font-size: 25px;
+    list-style: none;
+    height: 40px;
+    width: 100px;
+   
+}
+.dacap .layer1:hover{
+    background-color: rgb(182, 182, 182);
+}
+.dacap .layer2{
+    position: absolute;
+    top: 40px;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    border: 1px;
+}
+.dacap:hover .layer2{
+    opacity: 1;
+    visibility: visible;
+}
+.dacap .layer2 ul{
+    font-size: 20px;
+}
+.dacap .layer2 ul li{
+    list-style: none;
+    transition: 0.4s;
+    border: 1px solid gray;
+}
+li:hover{
+    background-color: rgb(209, 200, 200);
+
+}
+a{    text-decoration: none;
+}
